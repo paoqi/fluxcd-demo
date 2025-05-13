@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: flask
-          image: lyzhang1999/hello-world-flask:latest
+          image: lyzhang1999/hello-world-flask:v1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
